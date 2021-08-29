@@ -1,0 +1,23 @@
+Weekly Test: 29th August 2021
+Objective: (1-2.5 hours)
+https://docs.google.com/forms/d/e/1FAIpQLSfPNmM_eS_rR-edKNdnMAkG-pxnRCamKfgA_S-dr-BrKjX_eA/viewform
+CODE: (4-5 hours)
+Question 1:
+Explain what a callback function is and provide a simple example.
+
+Question 2: Given a sentence, reverse each word in the sentence.
+Input: "JS is popular"
+Output: "popular is JS"
+Question 3:
+Design a first in first out (FIFO) queue using HTML, CSS, JS.
+The design should have 1 text input to take data and 2 buttons named PUSH, POP with an alert when the queue is empty.
+(Late Submission for this question is accepted till tomorrow 01:00 PM)
+TEST:
+Input "Ram" & click PUSH  (Add "Ram" in queue)
+Input "Rahul" & click PUSH (,,)
+Input "Sonu" & click PUSH (,,)
+Input "Mahesh" & click PUSH (,,)
+Click POP (Remove "Ram" from queue)
+Click POP (,,)
+It should alert "empty queue" when there is no element in the array and the user clicks "POP"
+CODE Submission: https://docs.google.com/forms/d/e/1FAIpQLSdf_ZSPfzHxruK7-UcOxn_LpyNEQMGResAQ4tehqWpFPNoZTQ/viewform

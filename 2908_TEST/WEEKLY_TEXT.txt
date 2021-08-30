@@ -1,0 +1,151 @@
+1) What do you mean by built in function and user defined function?
+	User-defined function means you can create a function for your own use. You can create yourself according to your need.
+In JavaScript, these functions are written in between the <HEAD> tag of the HTML page.
+   Syntax:
+	function function_name()
+	{
+  	   //Code;
+	}
+
+2) What is an anonymous function in JavaScript? 
+	- Anonymous Function is a function that does not have any name associated with it. Normally we use the function keyword before the function name to define a function in JavaScript, however, in anonymous functions in JavaScript, we use only the function keyword without the function name.
+	function functionName(parameters) {
+ 	 // code to be executed
+	}
+
+3) What is the difference between the regular function() and an arrow function ()=>{}?
+	Syntax of regular functions:-
+	let x = function function_name(parameters){
+ 	  // body of the function
+	};
+
+	syntax of arrow functions:-
+	let x = (parameters) => {
+    	// body of the function
+	 };
+
+4) What are parameters and arguments in functions?
+	- The parameters, in a function call, are the function's arguments. JavaScript arguments are passed by value: The function only gets to know the values, not the argument's locations. If a function changes an argument's value, it does not change the parameter's original value. 
+	- The arguments object is a local variable available within all non-arrow functions. You can refer to a function's arguments inside that function by using its arguments object. It has entries for each argument the function was called with, with the first entry's index at 0 . The arguments object is not an Array
+
+5) How to empty an array in JavaScript? 
+	- Substituting with a new array − arr = []; This is the fastest way. ...
+	- Setting length prop to 0 − arr.length = 0. This will clear the existing array by setting its length to 0. ...
+	- Splice the whole array. arr.splice(0, arr.length)
+
+6) What is .some function in JS?
+    - The some() method checks if any of the elements in an array pass a tes
+    - If it finds an array element where the function returns a true value, some() returns true (and does not check the remaining values)
+    - Otherwise it returns false
+    ------ code ----
+    const array = [1, 7, 3, 9, 5];
+    const even = (element) => element % 2 === 0;
+    console.log(array.some(even));
+------------------------------
+7) What is dense arrays and sparse arrays?
+	----
+
+8) What is the key difference between forEach() and map() in JavaScript?
+	forEach() — executes a provided function once for each array element.
+		---------code--------
+		arr.forEach((num, index) => {
+    		return arr[index] = num * 2;
+		 });  // arr = [2, 4, 6, 8, 10]
+		
+	map() — creates a new array with the results of calling a provided function on every element in the calling array.
+	------------code ----------
+		- let doubled = arr.map(num => {
+   		  return num * 2;
+		  });
+		// doubled = [2, 4, 6, 8, 10]
+
+9) What is the difference between slice and splice in JavaScript?
+	- slice():-
+		- slice method is used to get a new array by selecting a sub-array of a given array.
+		- The changes do not reflect in the original array.
+		- The result has to be assigned to a new array variable.
+		- The return value is new array with the values in the selected sub-array of the given array. The values in the range start to (end-1) will be selected.
+		- Takes exactly 2 arguments
+	- splice():-
+		- splice method is used to add/remove an item from the given array.
+		- The changes reflect in the original array
+		- The result need not be assigned to any other new variable.
+		- The return value is an array containing the deleted element.
+		- Takes ‘n’ number of arguments (a list of new items can be supplied)
+
+10) What is filter method in JavaScript?
+	- Filter method use to apply filter to find useful data.
+		--	const ages = [32, 33, 16, 40];
+			ages.filter(checkAdult)    // Returns [32, 33, 40]
+			function checkAdult(age) {
+  			return age >= 18;}			
+		
+11) What is strings in JavaScript? Explain any five string method with example.
+	- zero or more characters written inside quotes.is known as string
+	Five String Method
+	- slice() - slice() extracts a part of a string and returns the extracted part in a new string.
+		--	let str = "Apple, Banana, Kiwi";
+			str.slice(7, 13)     // Returns Banana
+
+	- substring() - substring() is similar to slice() small difference it cannot accept negative indexes
+		--	let str = "Apple, Banana, Kiwi";
+			substring(7, 13)    // Returns Banana
+	- substr() -	substr() is similar to slice(), he difference is that the second parameter specifies the length of the extracted part
+		-- 	let str = "Apple, Banana, Kiwi";
+			str.substr(7, 6)    // Returns Banana
+	- replace() -	The replace() method replaces a specified value with another value in a string:
+		-- 	let text = "RAM AVTAR";
+			let newText = text.replace("RAJU KUMAR BAGHEL");
+	- concat()	concat() joins two or more strings:
+		-- 	let text1 = "Hello";
+			let text2 = "World";
+			let text3 = text1.concat(" ", text2);
+
+12) What are escape character in JavaScript?
+	- Escape sequences are typically used to specify actions such as carriage returns and tab movements on terminals and printers.
+	- \'	'	Single quote
+	- \"	"	Double quote
+	- \\	\	Backslash
+
+13) How do you find the length of an array and string in JavaScript?
+	- The length property sets or returns the number of elements in an array.
+------------code---------------
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+document.write(fruits.length);
+var fruits = [25,45,34,67,8];
+document.write(fruits.length); 
+--------
+
+14) Explain try...catch statement in JavaScript.
+	- The try statement allows you to define a block of code to be tested for errors while it is being executed.
+	- The catch statement allows you to define a block of code to be executed, if an error occurs in the try block.
+------------ code -----------
+ try {
+    if(x == "") throw "is Empty";
+    if(isNaN(x)) throw "not a number";
+    if(x > 10) throw "too high";
+    if(x < 5) throw "too low";
+  }
+  catch(err) {
+    message.innerHTML = "Input " + err;
+  }
+---------------------
+
+15) How do you convert number String to an integer.
+	- In JavaScript parseInt() function is used to convert the string to an integer. This function returns an integer of base which is specified in second argument of parseInt() function.
+parseInt() function returns Nan( not a number) when the string doesn’t contain number.
+---------- code ------------
+<script>
+  
+    function convertStoI() {
+        var a = "100";
+        var b = parseInt(a);
+        document.write("Integer value is" + b);
+        var d = parseInt("3 11 43");
+        document.write("</br>");  
+        document.write('Integer value is ' + d);
+  
+    }
+convertStoI(); 
+</script> 
+--------------------------------

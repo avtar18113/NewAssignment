@@ -7,12 +7,20 @@
     <title>Reverse Each Element</title>
 </head>
 <body>
-    <script>
-       function reverseString(str) {
-    const rem = return str.split("").reverse().join("");
-}
-document.write(rem);
-reverseString("hello ram avtar");
-    </script>
+    
+    <!-- <p >Reverse No . <a id="reversReturn"></a></p> -->
+     <script>
+        const reversWords=(sentence)=>{
+            const words=sentence.split(" ");
+            console.log(words);
+            const revWords = words.reverse();
+            return revWords.join(" ");
+            // document.getElementById("reversReturn").innerHTML=revWords.join(" ");
+            
+        }
+        console.log(reversWords("JS is popular"));
+        
+    </script> 
+
 </body>
 </html>

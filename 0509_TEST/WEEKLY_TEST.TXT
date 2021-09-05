@@ -1,0 +1,63 @@
+1) What is promise in JavaScript? What are the three Promise states in JavaScript?
+-   Promises:  JavaScript represent processes that are already happening, which can be chained with callback functions. -- Note: A promise is said to be settled if it is either fulfilled or rejected, but not pending
+-   Promise states:
+    - pending: initial state, neither fulfilled nor rejected.
+    - fulfilled: meaning that the operation was completed successfully.
+    - rejected: meaning that the operation failed.
+
+
+2) What is fetch API in JavaScript?
+    - The Fetch API is a simple interface for fetching resources. Fetch makes it easier to make web requests and handle responses than with the older XMLHttpRequest, which often requires additional logic (for example, for handling redirects).
+
+3) What is closures? How do JavaScript closures work.
+    - A closure is the combination of a function bundled together (enclosed) with references to its surrounding state     
+
+4) What is the difference between fetch and promise?
+    - 
+
+5) What is .then() method in JavaScript?
+    - then method returns a Promise which allows for method chaining. If the function passed as handler to then returns a Promise
+
+6) What is parallel fetch request?
+    - multiple async/await calls in parallel, all we need to do is add the calls to an array, and then pass that array as an argument to Promise. all() . Promise. all() will wait for all the provided async calls to be resolved before it carries on
+
+7) How to handle errors in fetch in JavaScript
+    - JavaScript provides error-handling mechanism to catch runtime errors using try-catch-finally block,
+
+8) What is async await in JavaScript? Why we use async and await in JavaScript.
+    - await can be used on its own with JavaScript modules.The purpose of async / await is to simplify the syntax necessary to consume promise-based APIs
+    - Async functions will always return a value. It makes sure that a promise is returned and if it is not returned then javascript automatically wraps it in a promise which is resolved with its value.
+
+9) Is async await better than promises?why.
+    - async functions use an implicit Promise to return results. Even if you don't return a promise explicitly, the async function makes sure that your code is passed through a promise
+
+10) What is recursive function in JavaScript? 
+    - Recursion is a process of calling itself. A function that calls itself is called a recursive function.  It is calling itself inside the function
+
+11) What is axios? What are the advantages of axios.
+    - Axios is a promise-based HTTP Client for node. js and the browser
+    advantages: 
+        -supports older browsers.
+        -has a way to abort a request.
+        -has a way to set a response timeout.
+        -has built-in CSRF protection.
+        -supports upload progress.
+        -performs automatic JSON data transformation.
+
+
+12) What is material UI? Why you should use material ui.
+    - Material-UI is simply a library that allows us to import and use different components to create a user interface in our React applications
+    
+    - Material UI is a component library for React teeming with powerful components that you should be using in your projects. it is use just looking to create a good looking app, Material UI can provide you with solid pre-styled components.
+
+
+13) What is the difference between JS and JSX in React?
+ - JS: JS file is a file containing a program in text format as usual of javascript code that is used to execute javascript instructions in web pages. This file can contain different functions for checking if a user has filled the form or not, checking if the input is  char or  number, and many other functions. These  functions  make a webpage  a lot powerful  in a different  way.
+ - JSX: JSX is a react extension, which lets us write javascript code that looks like HTML. Or we can say that JSX is  an HTML-like syntax used by react. This syntax is used by  preprocessors to change HTML-like code to standard  javascript that can be used by the javascript engine.
+
+14) What is the purpose of react and reactDOM library?
+    - React library is a free and open-source front-end JavaScript library for building user interfaces or UI components
+    - ReactDOM is a package that provides DOM specific methods that can be used at the top level of a web app to enable an efficient way of managing DOM elements of the web page. ReactDOM provides the developers with an API 
+
+15) Why do we use react over other HTML, CSS, JS static web pages?
+    - React is a UI library which helps you manage a lot of things easier with features like Virtual DOM(normal DOM updates are slow), handling data with states, component-based structure etc.

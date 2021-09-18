@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <strong><a>What is a Mutable and Unmutable object? Write an example with a real use case scenario.</a></strong>
+    <p>
+        An object's identity never changes once it has been created. ... Objects whose value can change are said to be
+        mutable. Objects whose value is unchangeable once they are created are called immutable</p>
+
+    <script>
+        var car = {
+            color: 'red',
+            tyres: '4'
+
+        }
+
+        var anotherCar = car;
+        car.color = 'blue';
+        console.log(anotherCar.color); // blue
+        console.log(car === anotherCar); //true 
+    </script>
+    <br>
+    <script>
+        var aString = "This is a string";
+        var bString = aString;
+        //now we alter aString
+        aString = "The string has changed";
+
+        console.log(aString); //The string has changed
+        console.log(bString); //This is a string
+        console.log(aString === bString); //false
+    </script>
+</body>
+
+</html>

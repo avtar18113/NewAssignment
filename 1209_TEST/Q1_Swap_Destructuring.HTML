@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Swap variables using Destructuring </title>
+    </head>
+    <body>
+        <script>//JavaScript program to swap two variables
+
+            //take input from the users
+            let a = 121;
+            let b = 321;
+            document.write("A value Before swapping:"+a+"<br>");
+            document.write(`B value Before swapping: ${b}<br>`);
+            document.write(`--------------------------------<br>`);
+
+            //using destructuring assignment
+            [a, b] = [b, a];
+            
+            console.log(`A value after swapping: ${a}`);
+            console.log(`B value after swapping: ${b}`);           
+            document.write("A value after swapping:"+a+"<br>");
+            document.write(`B value after swapping: ${b}<br>`);
+            </script>
+    </body>
+</html>

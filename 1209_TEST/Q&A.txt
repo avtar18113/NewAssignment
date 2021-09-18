@@ -1,0 +1,61 @@
+1) Which company developed JavaScript?
+    - Brendan Eich created JavaScript in 1995 while he was at Netscape Communications Corporation
+2) What UTF stands for? What is UTF8 in a web browser?
+    - Unicode Transformation Format
+    - HTML page can only be in one encoding. You cannot encode different parts of a document in different encodings. A Unicode-based encoding such as UTF-8 can support many languages and can accommodate pages and forms in any mixture of those languages
+
+3) How would you declare a global value that stores the string "Global"?
+
+4) What is ‘this’ keyword in JavaScript?
+
+5) What is the working of setTimeout function in JavaScript? Is setTimeout reliable to be executed after defined delay?
+
+6) How you can submit a form mentioned on a webpage using JavaScript without user clicking submit?
+
+7) How to know the operating system client is using using JS?
+
+8) Is showing "Alert" for user form submission a good idea as per modern web experience standards?
+
+9) What is delete operator in JS? Write an example.
+
+10) What is cookies? Why do analytics companies use cookie for?
+
+11) Why do big companies forcefully show "We use cookie" on first visit of a user on a web application? Why was this regulation implemented?
+
+12) What is the unshift method in JavaScript?
+
+13) What is a window.onload method? Where can this be used in a real web application?
+
+14) What is the difference between JS and JSX in React?
+
+15) What is event bubbling? How should use stop event bubbling?
+16) Explain call(), apply() and, bind() methods in JS?
+
+17) What is passed by value and passed by reference in JS?
+
+18) What is an Immediately Invoked Function in javascript?
+
+19) What is an Immediately Invoked Function?
+
+20) What is an Immediately Invoked Function?
+
+21) What is Constructor?
+
+22) List the important features of ES6? 
+
+23) What is await and async in ES6?
+
+24) How does await and async works in ES6?
+
+25) What is rest syntax?
+
+26) What is TDZ in JavaScript? 
+
+27) What is Mutable vs Unmutable object?
+
+28) What is a spread operator in javascript?
+
+29) What is difference between fetch() and XMLHttpRequest() in JavaScript?
+
+30) What is short hand method in ES6?
+

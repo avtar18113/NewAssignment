@@ -8,6 +8,6 @@
 }
 {
     console.log(myVar);
-    //console.log(typeof myVar);
+    console.log(typeof myVar);
     let message;
 }
